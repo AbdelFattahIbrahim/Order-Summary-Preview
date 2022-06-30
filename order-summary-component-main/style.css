@@ -1,0 +1,95 @@
+@font-face {
+    font-family:"Red Hat Display";
+    src: url(https://fonts.google.com/specimen/Red+Hat+Display);
+}
+
+body {
+    background-color:  hsl(225, 100%, 94%),hsl(245, 75%, 52%) ;
+    font-family: "Red Hat Display";
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-size: auto;
+    font-size: 16px;
+}
+.div1{
+    width: 300px;
+    border-color: white;
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.img1{
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.p1{
+    text-align: center;
+    font-weight: bold;
+}
+.p2{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.p3{
+    font-size: small;
+}
+.img2{
+    float: left;
+    width: 30px;
+    height: auto;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.span1{
+    float: right;
+    padding-right: 30px;
+    text-decoration: underline;
+}
+
+.div2{
+    width: 250px;
+    background-color: hsl(225, 100%, 98%);
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p4{
+    background-color: hsl(245, 75%, 52%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: small;
+    box-shadow: 10px 10px 10px hsl(245, 75%, 52%);
+}
+.p5{
+    text-align: center;
+    font-weight: bold;
+    font-size: smaller;
+    color: grey;
+}
+.p5:hover{
+    cursor:pointer;
+    color: black;
+}
+.p4:hover{
+    cursor: pointer;
+    filter: opacity(50%) ;
+}
+.span1:hover{
+    cursor: pointer;
+    filter: opacity(50%) ;
+    text-decoration: none;
+}
